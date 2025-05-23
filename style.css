@@ -2,14 +2,16 @@
 body{
 	margin:0;
 	font-family: 'Times New Roman', serif;
+	background-color: #FBFBFB;
+	
 }
 
 .navbar{
 	overflow: hidden;
-	background-color: #f1f1f1;
+	background-color: white;
 	top:0;
 	width:100%;
-	border-bottom: 2px solid #ACBAED;
+	border-bottom: 2px solid #d9e6ff;
 }
 
 .navbar a{
@@ -22,7 +24,7 @@ body{
 	
 }
 .navbar a:hover, .dropdown:hover .dropdownbtn{
-	background-color: #ACBAED;
+	background-color: #d9e6ff;
 	color: black;
 }
 .navbar a.active {
@@ -64,7 +66,7 @@ body{
 .dropdowncnt {
 	display: none;
 	position: absolute;
-	background-color: #f1f1f1;
+	background-color: white;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
@@ -81,7 +83,7 @@ body{
 .dropdown:hover .dropdowncnt {display:block;}
 
 .dropdowncnt a:hover{
-	background-color:#ACBAED;
+	background-color:#d9e6ff;
 	color:black;
 }
 
@@ -124,10 +126,55 @@ body{
 	clear: both;
 }
 
-.greybg .tricolumn{
-	background-color: #D3D3D3;
-}
 
 .newslink{
 	color:black;
+}
+
+.bluebg{
+	background-image: linear-gradient(to bottom,#C4D9FF,#C4D9FF,#E8F9FF,#E8F9FF);
+}
+
+.homelogo{
+	display:block;
+	margin:auto;
+	width:50%;
+}
+
+
+.txtcenter{
+	text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.rounded{
+	display:block;
+	border-radius: 25%;
+	background-color: #C5BAFF;
+	width:150px;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:20px 10px;
+	font-size:20px;
+	text-align: center;
+	border:none;
+}
+
+.toright{
+	float:right;
+	margin-right:3%;
+}
+
+.toleft{
+	float:left;
+	margin-left:3%;
+}
+
+.rounded:hover{
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 4px 6px 0 rgba(0,0,0,0.19);
 }
